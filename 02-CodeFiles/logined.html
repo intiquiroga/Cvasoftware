@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive&Interactive Gambling Site</title>    
+<!--basic--> 
+    <link rel="stylesheet" href="./css/source/reset.css">
+    <link rel="stylesheet" href="./css/source/main.css">
+<!--for Navigation-->  
+     <link rel="stylesheet" href="./css/vendor/okayNav.css">
+<!--for Slider -->
+    <link rel="stylesheet" href="./css/vendor/slick.css">
+   <link rel="stylesheet" href="./css/source/slider.css">
+<!--font icon & effects-->
+<link rel="stylesheet" href="./css/vendor/font-awesome/all.css"> 
+<link rel="stylesheet" href="./css/vendor/aos.css">
+<link rel="stylesheet" href="./css/source/aoseffects.css"> 
+<link rel="stylesheet" href="./css/vendor/jquery.fancybox.css">
+<!--media queries-->
+   <link rel="stylesheet" href="./css/source/queries.css">
+<!--favico-->
+<link rel="apple-touch-icon" sizes="57x57" href="./favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="./favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+<link rel="manifest" href="./favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="./favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <!--HEADER START-->
+    <header id="header">
+        <h1 class="logo">
+            <span>the best gaming provider</span>
+            <a href="#">
+             <img src="images/logo.png" alt="bestbet.com">
+            </a> 
+        </h1>
+        <nav id="nav-main" class="okayNav">
+            <ul>
+                <li class="login"><a data-fancybox data-src="#userbox" href="#userbox" target="mainframe"><i class="fas fa-user-circle"></i>User001</a></li>
+                <li><a href="#home"  class="hvr-icon-up active"><i class="fas fa-jedi hvr-icon"></i>Home</a></li>
+                <li><a href="#product" class="hvr-icon-up"><i class="fas fa-dice-d20 hvr-icon"></i>Products</a></li>
+                <li><a href="#advantage" class="hvr-icon-up"><i class="fas fa-crown hvr-icon"></i>advantage</a></li>
+                <li><a href="#hotgames" class="hvr-icon-up"><i class="fas fa-gamepad hvr-icon"></i>Hot Games</a></li>
+                <li><a href="#mobile" class="hvr-icon-up"><i class="fas fa-mobile-alt hvr-icon"></i>Mobile APP</a></li>
+                <li><a href="#aboutus" class="hvr-icon-up"><i class="fas fa-biohazard hvr-icon"></i>About us</a></li>
+                <li><a href="#contactus" class="hvr-icon-up"><i class="fas fa-at hvr-icon"></i>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--HEADER END-->
+
+<!--SLIDER START-->
+    <div class="main-slider" id="home">
+        
+        <div class="item image">
+            <h2>Main Slider Banners Static image</h2>
+            <span class="loading">Image is Loading...</span>
+            <figure>
+                <div class="slide-image slide-media static1">
+                    <img data-lazy="./images/slider/sliderbg01.jpg" src="./images/slider/sliderbg01.jpg" alt="SliderBanner1" class="image-entity" /> 
+                </div>
+            </figure>
+        </div>
+        <div class="item vimeo" data-video-start="0">
+            <h2>Main Slider Banners embeded video</h2>
+            <iframe class="embed-player slide-media"
+                src="https://player.vimeo.com/video/22517043?api=1&byline=0&portrait=0&title=0&background=1&mute=1&loop=1&autoplay=0&id=22517043"
+                allowfullscreen>
+            </iframe>
+        </div>
+       <div class="item image">
+            <h2>Main Slider Banners Static image</h2>
+            <span class="loading">Image is Loading...</span>
+            <figure>
+                <div class="slide-image slide-media static2">
+                    <img  data-lazy="./images/slider/sliderbg02.jpg" src="./images/slider/sliderbg02.jpg" alt="SliderBanner2" class="image-entity" />
+                </div>
+            </figure>
+        </div> 
+        <div class="item vimeo" data-video-start="1">
+            <h2>Main Slider Banners embeded video</h2>
+            <iframe class="embed-player slide-media"
+                src="https://player.vimeo.com/video/91026126?api=1&byline=0&portrait=0&title=0&background=1&mute=1&loop=1&autoplay=0&id=91026126" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+<!--SLIDER END-->
+
+<div class="wrap">
+<!--PRODUCT START-->
+    <section class="section-product" id="product">
+        <div class="fluid">
+            <div class="title">
+                <h2>OUR PRODUCTS</h2>
+                    <p class="subintro">BESTBET is Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quis iure ut distinctio, voluptatum adipisci natus enim voluptate sequi nihil. Consequatur at adipisci voluptate qui necessitatibus. Veritatis deleniti id quibusdam sit ullam ea explicabo, a delectus atque, reprehenderit accusamus maxime vero illum non eligendi, cupiditate quidem? Neque alias aliquam, consectetur facilis unde, impedit quasi.</p>
+            </div>
+            <div class="item-group">
+                <div class="set" data-aos="fade-up">
+                    <div class="items">
+                        <div class="theme">
+                            <img src="./images/product/product01.png" alt="">
+                        </div>
+                        <div class="main-object">
+                            <img src="./images/product/pro-object01.png" alt="">
+                        </div>
+                        <div class="sub-object">
+                            <img src="./images/product/pro-object01-2.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h3>SPORTSBOOK</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, provident!dolor sit amet consectetur ipsum dolor elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="set" data-aos="fade-up">
+                    <div class="items">
+                        <div class="theme">
+                            <img src="./images/product/product02.png" alt="">
+                        </div>
+                        <div class="main-object">
+                            <img src="./images/product/pro-object02.png" alt="">
+                        </div>
+                        <div class="sub-object">
+                            <img src="./images/product/pro-object02-2.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h3>LIVE CASINO</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, provident!dolor sit amet consectetur ipsum dolor elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="set" data-aos="fade-up">
+                    <div class="items">
+                        <div class="theme">
+                            <img src="./images/product/product03.png" alt="">
+                        </div>
+                        <div class="main-object">
+                            <img src="./images/product/pro-object03.png" alt="">
+                        </div>
+                        <div class="sub-object">
+                            <img src="./images/product/pro-object03-2.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h3>LOTTERY</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, provident!dolor sit amet consectetur ipsum dolor elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item-group">
+                <div class="set" data-aos="fade-up">
+                    <div class="items">
+                        <div class="theme">
+                            <img src="./images/product/product04.png" alt="">
+                        </div>
+                        <div class="main-object">
+                            <img src="./images/product/pro-object04.png" alt="">
+                        </div>
+                        <div class="sub-object">
+                            <img src="./images/product/pro-object04-2.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h3>ESPORTS</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, provident!dolor sit amet consectetur ipsum dolor elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="set" data-aos="fade-up">
+                    <div class="items">
+                        <div class="theme">
+                            <img src="./images/product/product05.png" alt="">
+                        </div>
+                        <div class="main-object">
+                            <img src="./images/product/pro-object05.png" alt="">
+                        </div>
+                        <div class="sub-object">
+                            <img src="./images/product/pro-object05-2.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h3>SLOT GAMES</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, provident!dolor sit amet consectetur ipsum dolor elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="set" data-aos="fade-up">
+                    <div class="items">
+                        <div class="theme">
+                            <img src="./images/product/product06.png" alt="">
+                        </div>
+                        <div class="main-object">
+                            <img src="./images/product/pro-object06.png" alt="">
+                        </div>
+                        <div class="sub-object">
+                            <img src="./images/product/pro-object06-2.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h3>FISHING GAMES</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, provident!dolor sit amet consectetur ipsum dolor elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--ADVANTAGE START-->
+<section class="section-advantage" id="advantage">
+    <div class="fluid">
+        <div class="title">
+            <h2>OUR ADVANTAGE</h2>
+            <p class="subintro">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui reiciendis earum placeat ipsam aperiam voluptatibus repellendus perferendis vitae accusantium officia! Itaque obcaecati ratione autem esse praesentium debitis architecto aliquam officiis expedita excepturi numquam molestias vitae rerum eligendi quas, voluptas dolorem. Delectus itaque facere est error tempore, placeat reprehenderit. In vitae itaque facere fuga quo dolor pariatur ducimus, eius exercitationem placeat.</p>
+        </div>
+        <div class="item-group">
+            <div class="aos-item" data-aos="fade-up">
+                <div class="items  hvr-icon-spin hvr-shutter-out-horizontal hvr-shadow aos-item">
+                    <div class="icon">
+                        <img src="./images/advantage/icon01.png" class="hvr-icon" alt="icon01">
+                    </div>
+                    <div class="txt">
+                        <h3>Various Hot Games</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita? Iure incidunt natus adipisci, optio officiis maxime exercitationem similique assumenda voluptatem nulla nobis sequi id quo aliquid sit.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="aos-item" data-aos="fade-up">
+                <div class="items aos-item hvr-icon-spin hvr-shutter-out-horizontal hvr-shadow">
+                    <div class="icon">
+                        <img src="./images/advantage/icon02.png" class="hvr-icon" alt="icon02">
+                    </div>
+                    <div class="txt">
+                        <h3>Cross-platform</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita? Iure incidunt natus adipisci, optio officiis maxime exercitationem similique assumenda voluptatem nulla nobis sequi id quo aliquid sit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="aos-item" data-aos="fade-up">
+                <div class="items  hvr-icon-spin hvr-shutter-out-horizontal hvr-shadow">
+                    <div class="icon">
+                        <img src="./images/advantage/icon03.png" class="hvr-icon" alt="icon03">
+                    </div>
+                    <div class="txt">
+                        <h3>Financial Management</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita? Iure incidunt natus adipisci, optio officiis maxime exercitationem similique assumenda voluptatem nulla nobis sequi id quo aliquid sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-group">
+            <div class="aos-item" data-aos="fade-up">
+                <div class="items  hvr-icon-spin hvr-shutter-out-horizontal hvr-shadow">
+                    <div class="icon">
+                        <img src="./images/advantage/icon04.png" class="hvr-icon" alt="icon04">
+                    </div>
+                    <div class="txt">
+                        <h3>Professional Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita? Iure incidunt natus adipisci, optio officiis maxime exercitationem similique assumenda voluptatem nulla nobis sequi id quo aliquid sit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="aos-item" data-aos="fade-up">
+                <div class="items  hvr-icon-spin hvr-shutter-out-horizontal hvr-shadow">
+                    <div class="icon">
+                        <img src="./images/advantage/icon05.png" class="hvr-icon" alt="icon05">
+                    </div>
+                    <div class="txt">
+                        <h3>Risk Management System</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita? Iure incidunt natus adipisci, optio officiis maxime exercitationem similique assumenda voluptatem nulla nobis sequi id quo aliquid sit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="aos-item" data-aos="fade-up">
+                <div class="items  hvr-icon-spin hvr-shutter-out-horizontal hvr-shadow">
+                    <div class="icon">
+                        <img src="./images/advantage/icon06.png" class="hvr-icon" alt="icon06">
+                    </div>
+                    <div class="txt">
+                        <h3>Technical Supports</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt obcaecati cum ullam similique quaerat commodi necessitatibus repudiandae sunt laudantium qui?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--HOTGAMES START-->
+<section class="section-hotgames" id="hotgames">
+    <div class="fluid">
+        <div class="title">
+            <h2>HOT GAMES</h2>
+            <p class="subintro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, enim. Architecto esse laboriosam itaque ipsam illo reprehenderit neque doloribus rerum nemo quos adipisci, nisi quis consequatur? Consequuntur quam corporis dolore velit quo, quaerat distinctio nihil. Quaerat voluptates saepe fugit praesentium ut dolore laudantium ex nemo, obcaecati aspernatur cumque quas totam. </p>
+        </div>
+        <div class="item-group" data-aos="fade-right" >
+                <div class="items">
+                        <div class="visual">
+                            <img src="./images/hotgames/1.jpg" alt="hotgame showcase">
+                        </div>       
+                    <div class="txt">
+                        <div class="agent">
+                            <img src="./images/hotgames/agent-1.png" alt="hotgame agent">
+                        </div>
+                        <h4>HALLOWEEN FORTUNE</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..
+                        </p>
+                        <a href="#" class="playnow">
+                            <i class="fa fa-play fa-2x"></i>
+                        </a>
+                     </div>                    
+                </div>                    
+                <div class="items">
+                    <div class="visual">
+                        <img src="./images/hotgames/2.gif" alt="hotgame showcase">
+                    </div>       
+                    <div class="txt">
+                        <div class="agent">
+                            <img src="./images/hotgames/agent-2.png" alt="hotgame agent">
+                        </div>
+                        <h4>HALLOWEEN FORTUNE</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita.
+                        </p>
+                        <a href="#" class="playnow">
+                            <i class="fa fa-play fa-2x"></i>
+                        </a>
+                    </div>                    
+                </div>  
+                <div class="items">
+                    <div class="visual">
+                        <img src="./images/hotgames/3.jpg" alt="hotgame showcase">
+                    </div>       
+                    <div class="txt">
+                        <div class="agent">
+                            <img src="./images/hotgames/agent-3.png" alt="hotgame agent">
+                        </div>
+                        <h4>HALLOWEEN FORTUNE</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita.
+                        </p>
+                        <a href="#" class="playnow">
+                            <i class="fa fa-play fa-2x"></i>
+                        </a>
+                    </div>                    
+                </div> 
+                <div class="items">
+                    <div class="visual">
+                        <img src="./images/hotgames/4.jpg" alt="hotgame showcase">
+                    </div>       
+                    <div class="txt">
+                        <div class="agent">
+                            <img src="./images/hotgames/agent-4.png" alt="hotgame agent">
+                        </div>
+                        <h4>HALLOWEEN FORTUNE</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita.
+                        </p>
+                        <a href="#" class="playnow">
+                            <i class="fa fa-play fa-2x"></i>
+                        </a>
+                    </div>                    
+                </div> 
+        </div>
+        <div class="item-group" data-aos="fade-up" >
+            <div class="items">
+                    <div class="visual">
+                        <img src="./images/hotgames/5.jpg" alt="hotgame showcase">
+                    </div>       
+                <div class="txt">
+                    <div class="agent">
+                        <img src="./images/hotgames/agent-5.png" alt="hotgame agent">
+                    </div>
+                    <h4>HALLOWEEN FORTUNE</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita.
+                    </p>
+                    <a href="#" class="playnow">
+                        <i class="fa fa-play fa-2x"></i>
+                    </a>
+                 </div>                    
+            </div>                    
+            <div class="items">
+                <div class="visual">
+                    <img src="./images/hotgames/6.jpg" alt="hotgame showcase">
+                </div>       
+                <div class="txt">
+                    <div class="agent">
+                        <img src="./images/hotgames/agent-6.png" alt="hotgame agent">
+                    </div>
+                    <h4>HALLOWEEN FORTUNE</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita.
+                    </p>
+                    <a href="#" class="playnow">
+                        <i class="fa fa-play fa-2x"></i>
+                    </a>
+                </div>                    
+            </div>  
+            <div class="items">
+                <div class="visual">
+                    <img src="./images/hotgames/7.jpg" alt="Chotgame showcase">
+                </div>       
+                <div class="txt">
+                    <div class="agent">
+                        <img src="./images/hotgames/agent-7.png" alt="hotgame agent">
+                    </div>
+                    <h4>HALLOWEEN FORTUNE</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita.
+                    </p>
+                    <a href="#" class="playnow">
+                        <i class="fa fa-play fa-2x"></i>
+                    </a>
+                </div>                    
+            </div> 
+            <div class="items">
+                <div class="visual">
+                    <img src="./images/hotgames/8.jpg" alt="hotgame showcase">
+                </div>       
+                <div class="txt">
+                    <div class="agent">
+                        <img src="./images/hotgames/agent-8.png" alt="hotgame agent">
+                    </div>
+                    <h4>HALLOWEEN FORTUNE</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita.
+                    </p>
+                    <a href="#" class="playnow">
+                        <i class="fa fa-play fa-2x"></i>
+                    </a>
+                </div>                    
+            </div> 
+        </div>
+    </div>
+</section>
+<!--MOBILE START-->
+<section class="section-mobile" id="mobile">
+    <div class="fluid">
+        <div class="title">
+            <h2>MOBILE APP</h2>
+            <p class="subintro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, enim. Architecto esse laboriosam itaque ipsam illo reprehenderit neque doloribus rerum nemo quos adipisci, nisi quis consequatur? Consequuntur quam corporis dolore velit quo, quaerat distinctio nihil. Quaerat voluptates saepe fugit praesentium ut dolore laudantium ex nemo, obcaecati aspernatur cumque quas totam. </p>
+        </div>
+        <div class="item-group" data-aos="fade-right" >
+                <div class="items">
+                    <div class="visual" data-aos="fade-right" >
+                        <figure class="mobilepic">
+                            <img src="./images/mobile/app-iPhone.png" alt="mobile sample">
+                        </figure>
+                        <a href="#" class="btn-qrcode">
+                            <h3 class="downloadapp">
+                                Download APP
+                            </h3>
+                            <img src="./images/mobile/qrcode.png" alt="App Store Button">
+                        </a>
+                    </div>      
+                    <div class="txt" data-aos="fade-left" >
+                        <div class="works-step">
+                            <div class="step-num">1</div>
+                            <div class="step-txt">
+                                <h4>Lorem ipsum sit amet</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius magnam doloribus minus numquam aliquid quisquam id deleniti ratione quam, reprehenderit obcaecati asperiores placeat, nam possimus incidunt, nisi fugiat nihil quisquam id deleniti ratione quam maiores.</p> 
+                            </div>
+                        </div>
+                        <div class="works-step">
+                            <div class="step-num">2</div>
+                            <div class="step-txt">
+                                <h4>Consectetur adipisicing</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius magnam doloribus minus numquam aliquid quisquam id deleniti ratione quam, reprehenderit obcaecati asperiores placeat, nam possimus incidunt, nisi fugiat nihil quisquam id deleniti ratione quam maiores.</p> 
+                            </div>
+                        </div>
+                        <div class="works-step">
+                            <div class="step-num">3</div>
+                            <div class="step-txt">
+                                <h4>Eius magnam</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius magnam doloribus minus numquam aliquid quisquam id deleniti ratione quam, reprehenderit obcaecati asperiores placeat, nam possimus incidunt, nisi fugiat nihil quisquam id deleniti ratione quam maiores.</p> 
+                            </div>
+                        </div>
+                        <div class="applink">
+                            <a href="#" class="btn-app"><img src="./images/mobile/download-app.svg" alt="App Store Button"></a>
+                            <a href="#" class="btn-app"><img src="./images/mobile/download-app-android.png" alt="Play Store Button"></a>
+                            </div>
+                    </div>              
+                </div>
+        </div>
+    </div>
+</section>
+
+<!--ABOUT US START-->
+     <section class="section-aboutus" id="aboutus">
+        <div class="fluid">
+            <div class="title">
+                <h2>ABOUT US</h2>
+                <p class="subintro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, enim. Architecto esse laboriosam itaque ipsam illo reprehenderit neque doloribus rerum nemo quos adipisci, nisi quis consequatur? Consequuntur quam corporis dolore velit quo, quaerat distinctio nihil. Quaerat voluptates saepe fugit praesentium ut dolore laudantium ex nemo, obcaecati aspernatur cumque quas totam. Dolorem voluptatem deserunt illum ratione eum quisquam itaque ut unde?</p>
+            </div>
+
+            <div class="item-group">
+                <div class="aos-item" data-aos="fade-right">
+                    <div class="items">
+                        <div class="visual">
+                            <img src="./images/aboutus/hi.svg" alt="sayhi" class="hi">
+                            <img src="./images/aboutus/people01.jpg" class="photo" alt="people01">
+                        </div>
+                        <div class="txt">
+                            <h3>Anthony Svalena</h3>
+                            <h4>FOUNDER & CHIEF EXECUTIVE OFFICER</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita? Iure incidunt natus adipisci, optio officiis maxime exercitationem similique assumenda voluptatem nulla nobis sequi id quo aliquid sit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita? Iure incidunt natus adipisci, optio officiis maxime exercitationem similique assumenda voluptatem nulla nobis sequi id quo aliquid sit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aos-item" data-aos="fade-right">
+                    <div class="items">
+                        <div class="visual">
+                            <img src="./images/aboutus/hi.svg" alt="sayhi" class="hi">
+                            <img src="./images/aboutus/people02.jpg" class="hvr-icon" alt="people01">
+                        </div>
+                        <div class="txt">
+                            <h3>Evelyn Lovelock</h3>
+                            <h4>VICE PRESIDENT OF CONSUMER PRODUCTS</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita? Iure incidunt natus adipisci, optio officiis maxime exercitationem similique assumenda voluptatem nulla nobis sequi id quo aliquid sit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita? Iure incidunt natus adipisci, optio officiis maxime exercitationem similique assumenda voluptatem nulla nobis sequi id quo aliquid sit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aos-item" data-aos="fade-right">
+                    <div class="items">
+                        <div class="visual">
+                            <img src="./images/aboutus/hi.svg" alt="sayhi" class="hi">
+                            <img src="./images/aboutus/people03.jpg" class="hvr-icon" alt="people01">
+                        </div>
+                        <div class="txt">
+                            <h3>Peter Jr. Pan</h3>
+                            <h4>CHIEF CREATIVE OFFICER</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita? Iure incidunt natus adipisci, optio officiis maxime exercitationem similique assumenda voluptatem nulla nobis sequi id quo aliquid sit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita? Iure incidunt natus adipisci, optio officiis maxime exercitationem similique assumenda voluptatem nulla nobis sequi id quo aliquid sit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item-group">
+                <div class="aos-item" data-aos="fade-right">
+                    <div class="items">
+                        <div class="visual">
+                            <img src="./images/aboutus/hi.svg" alt="sayhi" class="hi">
+                            <img src="./images/aboutus/people04.jpg" class="hvr-icon" alt="people01">
+                        </div>
+                        <div class="txt">
+                            <h3>Jacky Behappy</h3>
+                            <h4>CHIEF MARKETING OFFICER</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita? Iure incidunt natus adipisci, optio officiis maxime exercitationem similique assumenda voluptatem nulla nobis sequi id quo aliquid sit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita? Iure incidunt natus adipisci, optio officiis maxime exercitationem similique assumenda voluptatem nulla nobis sequi id quo aliquid sit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aos-item" data-aos="fade-right">
+                    <div class="items">
+                        <div class="visual">
+                            <img src="./images/aboutus/hi.svg" alt="sayhi" class="hi">
+                            <img src="./images/aboutus/people05.jpg" class="hvr-icon" alt="people01">
+                        </div>
+                        <div class="txt">
+                            <h3>Olivia Scally</h3>
+                            <h4>GENERAL COUNSEL</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita? Iure incidunt natus adipisci, optio officiis maxime exercitationem similique assumenda voluptatem nulla nobis sequi id quo aliquid sit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita? Iure incidunt natus adipisci, optio officiis maxime exercitationem similique assumenda voluptatem nulla nobis sequi id quo aliquid sit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aos-item" data-aos="fade-right">
+                    <div class="items">
+                        <div class="visual">
+                            <img src="./images/aboutus/hi.svg" alt="sayhi" class="hi">
+                            <img src="./images/aboutus/people06.jpg" class="hvr-icon" alt="people01">
+                        </div>
+                        <div class="txt">
+                            <h3>Ashwarya Gandhi</h3>
+                            <h4>VICE PRESIDENT, CHANNELS & SERVICES</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita? Iure incidunt natus adipisci, optio officiis maxime exercitationem similique assumenda voluptatem nulla nobis sequi id quo aliquid sit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor quisquam expedita? Iure incidunt natus adipisci, optio officiis maxime exercitationem similique assumenda voluptatem nulla nobis sequi id quo aliquid sit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<!--CONTACT US START-->
+<div class="section-contactus" id="contactus">
+    <div class="fluid">
+        <div class="title">
+            <h2>CONTACT US</h2>
+            <p class="subintro">Lorem  adipisicing elit. Officiis, enim. Architecto esse laboriosam itaque ipsam illo reprehenderit neque doloribus rerum nemo quos adipisci, nisi quis consequatur? Consequuntur quam corporis dolore velit quo, quaerat distinctio nihil. Quaerat voluptates saepe fugit praesentium ut dolore laudantium ex nemo, obcaecati aspernatur cumque quas totam. Dolorem voluptatem deserunt illum ratione eum quisquam itaque ut unde?</p>
+        </div>
+        <div class="item-group" onload="init()">
+                <form enctype="text/plain" accept-charset="utf-8" class="contact-form">
+                    <div class="items">
+                        <div class="form-title">
+                            <label for="nameText">Name</label>
+                        </div>
+                            <input type="text" name="Name" id="nameText" placeholder="Your name" required>
+                    </div>
+                    <div class="items">
+                        <div class="form-title">
+                            <label for="emailText">Email</label>
+                        </div>
+                            <input type="email" name="Email" id="emailText" placeholder="Your email" required>
+                    </div>
+                    <div class="items">
+                        <div class="form-title">
+                            <label for="telText">TEL</label>
+                        </div>
+                        <input id="telText" type="tel" name="Phone"  value size="60" aria-invalid="false" placeholder="Your Phone" required>
+                    </div>
+                    <div class="items">
+                        <div class="form-title">
+                            <label for="subText">Your Subject</label>
+                        </div>
+                        <input  id="subText" type="text" name="Subject"  value size="60" aria-invalid="false" placeholder="Subject" required>
+                    </div>
+                    <div class="items">
+                        <div class="form-title">
+                            <label>Drop us a line</label>
+                        </div>
+                        <textarea id="bodyText" name="your-message" cols="40" rows="2" aria-invalid="false" placeholder="Your Message" required></textarea>
+                    </div>
+                     <!-- Send Buton -->
+                       <div class="send"> 
+                          <input class="form-btn" type="button" value="Send It Now!" onclick="submitHandler();">
+                          <a id="mailTo"></a>
+                       </div>
+                </form>
+        </div>
+    </div>
+</div>
+<!--FOOTER START-->
+<footer>
+    <div class="fluid">
+        <div class="item-group">
+            <div class="items">
+                <a class="logo" href="#"><img src="./images/logo.png" alt=""></a>
+                <p>Your best online gaming and soulation provider.</p>
+                <div class="license">
+                    <ul>
+                        <li><img src="./images/footer/icon-gamecare.png" alt=""></li>
+                        <li><img src="./images/footer/icon-islandman.png" alt=""></li>
+                        <li><img src="./images/footer/icon-license.png" alt=""></li>
+                        <li><img src="./images/footer/icon-18up.png" alt=""></li>
+                        <li><img src="./images/footer/icon-restrick.png" alt=""></li>
+                        <li><img src="./images/footer/icon-ncpg.png" alt=""></li>
+                        <li class="clear-fix"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="items">
+                <h4>Our Outstanding Partners</h4>
+                
+                <div class="partners">
+                    <ul>
+                        <li><img src="./images/footer/partner01.png" alt=""></li>
+                        <li><img src="./images/footer/partner02.png" alt=""></li>
+                        <li><img src="./images/footer/partner03.png" alt=""></li>
+                        <li><img src="./images/footer/partner04.png" alt=""></li>
+                        <li><img src="./images/footer/partner05.png" alt=""></li>
+                        <li><img src="./images/footer/partner06.png" alt=""></li>
+                        <li><img src="./images/footer/partner07.png" alt=""></li>
+                        <li class="clear-fix"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="items">
+                <h4>Our Paymend method</h4>
+                 <div class="payments">
+                    <ul>
+                        <li><img src="./images/footer/payments01.png" alt=""></li>
+                        <li><img src="./images/footer/payments02.png" alt=""></li>
+                        <li><img src="./images/footer/payments03.png" alt=""></li>
+                        <li><img src="./images/footer/payments04.png" alt=""></li>
+                        <li><img src="./images/footer/payments05.png" alt=""></li>
+                        <li><img src="./images/footer/payments06.png" alt=""></li>
+                        <li><img src="./images/footer/payments07.png" alt=""></li>
+                        <li><img src="./images/footer/payments08.png" alt=""></li>
+                        <li class="clear-fix"></li>
+                    </ul>
+                 </div>
+            </div>
+         </div>
+        </div>
+        <div class="copyright">
+            <p>2020 © BESTgaming. All Rights Reserved</p>
+        </div>
+    
+</footer>
+</div>
+
+<!--LOGIN-->
+<div style="display: none;" id="loginbox" class="loginblock">
+    <h3><i class="fas fa-user-circle"></i>User Profile</h3>
+    <div class="item-group">
+        <form method="post" action="#" class="contact-form">
+            <div class="items">
+                <div class="form-title">
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-placholder">
+                    <input type="email" name="email" id="email" placeholder="Your email" required>
+                </div>
+            </div>
+
+            <div class="items">
+                <div class="form-title">
+                    <label for="password">Password</label>
+                </div>
+                <div class="form-placholder">
+                    <input type="password" name="password" id="password" placeholder="Your password" required>
+                </div>
+            </div>
+
+            <div class="items">
+                <div class="form-title">
+                    <label>Forgot Password? </label>
+                    <span><a href="#"> please help</a></span> 
+                </div>
+            </div>
+            <div class="items">
+                    <div class="form-btn"><a href="logined.html">LOGIN</a></div>
+            </div>
+        </form>  
+     </div>
+ </div>	
+<!--UserProfile-->
+<div style="display: none;" id="userbox" class="userblock">
+    <h3><i class="fas fa-user-circle"></i>User Profile</h3>
+    <div class="item-group">
+        <div class="items">
+            <div class="user">
+                <img src="./images/userprofile.jpg" alt="">
+            </div>    
+        </div>
+        <div class="items info">
+            <ul class="title">
+                <li> Level : <span>VVIP</span></li>
+                <li> Username : <span>User001</span> </li>
+                <li> Banlnce $ : <span>1,000,000</span> </li>
+                <li> Recent Profit $ : <span>+ 70,000</span> </li>
+            </ul>                
+        </div>
+    </div>
+    <div class="item-group">
+        <div class="items">
+            <h4>Recently Played Games :</h4>
+            <ul class="played">
+                <li> 
+                    <img src="./images/played01.jpg" alt="">
+                    <p>BlackJack</p>
+                </li>
+                <li> 
+                    <img src="./images/played02.jpg" alt="">
+                    <p>ApolloPower</p> 
+                </li>
+                <li> 
+                    <img src="./images/played03.jpg" alt="">
+                    <p>IrishLuck</p>
+                </li>
+                <li> 
+                    <img src="./images/played04.jpg" alt="">
+                    <p>MahaloHawaii</p>
+                </li>
+                <li> 
+                    <img src="./images/played05.jpg" alt="">
+                    <p>IronGirl</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="item-group">
+        <div class="items logout">
+            <a href="index.html">
+            <i class="fas fa-sign-out-alt"></i>Logout
+            </a>
+        </div>
+    </div>
+</div>	
+<!--SCRIPTS HERE-->
+<script src="./js/vendor/jquery-3.4.1.min.js"></script>
+<script src="./js/vendor/jquery.okayNav.js"></script>
+<script src="./js/vendor/slick.min.js"></script>
+<script src="./js/vendor/aos.js"></script>
+<script src="./js/source/script-slider.js"></script>
+<script src="./js/source/script-scroll.js"></script>
+<script src="./js/source/script-aos.js"></script>
+<script src="./js/source/script-contact.js"></script>
+<script src="./js/vendor/jquery.fancybox.js"></script>
+</body>
+</html>

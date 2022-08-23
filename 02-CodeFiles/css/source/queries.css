@@ -1,0 +1,1044 @@
+/**************************************/
+/* small desktop to 1440px (smaller than 1440px)=================== */
+/**************************************/
+@media only screen and (max-width: 1440px) {
+  /*Product*/
+  .section-product .items .theme img{
+    height:20vw;
+  }
+    /*footer*/
+    footer .items{
+      padding-right:2vw;
+    }
+    footer .items .license li{
+      width:50px;
+    }
+    footer .items .license img{
+      width:100%;
+    }
+    .loginblock,
+    .userblock{
+      width:60%; 
+    }
+}
+
+/**************************************/
+/* Big tablet to 1200px (smaller than 1200px) ===================*/
+/* ipad Horizontal:1024px===================*/
+/**************************************/
+@media only screen and (max-width: 1200px) {
+  /*slider*/
+  .slick-slide{
+    height:45vw;
+  }
+  .main-slider{
+    height:47vw;
+  }
+  .slick-dots li{
+  margin-top:0px;
+  }
+  .slick-dots li button {
+    width: 20px;
+    height: 20px;
+  }
+  /*content start*/
+  .wrap .fluid {
+    width: 90vw;
+  }
+  /*product*/
+  .section-product .items .main-object img{
+    width:310px;
+  }
+  .section-product .items .theme img {
+    width: 28vw;
+    height: 20vw;
+  }
+  .section-product .items .main-object img {
+    width: 300px;
+  }
+  /*advance*/
+  .section-advantage .item-group{
+    padding-top:50px;
+  }
+  .section-advantage .item-group:last-child{
+    padding-top:0px;
+  }
+  /*hotgames*/
+  .section-hotgames{ 
+    background: rgb(20, 20, 20);
+  }
+  .section-hotgames .title{
+    width: 100%;
+    margin:auto;
+    top:0;
+    left:0;
+    background-color:transparent;
+    position: relative;
+    padding:20px 0;
+  }
+  .section-hotgames .subintro{
+    width:90%;
+    padding-bottom:10px;
+  }
+  .section-hotgames .item-group{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }  
+  .section-hotgames .items{
+    width:50%;
+    padding:5px;
+  }
+  .section-hotgames .item-group:last-child{
+    margin-bottom:30px;
+  }  
+  .section-hotgames .items img {
+    opacity: 1;
+    width: 100%;
+  }
+  .section-hotgames .items:hover .txt{
+    opacity: 1;
+   }
+  .section-hotgames .items .txt p{
+    display:none;
+  }
+   .section-hotgames .items .agent img{
+    width:80%;
+  }
+  /*mobile*/
+  .section-mobile .items .visual{
+    width:50%;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+  }
+  .section-mobile .items .visual{
+    text-align: left;
+  }
+  .section-mobile .items .visual img{
+    width:90%;
+    vertical-align: bottom;
+  }
+  .section-mobile .btn-qrcode{
+    display:none;
+  }
+  .section-mobile .downloadapp{
+    opacity: 1;
+    position: absolute;
+    bottom:250px;
+    right:60px;
+    font-size:25px;
+    padding:0 15px;
+    border-radius: 50px;
+    background-color:#ff4516;
+    color:#fff;
+  }
+  /*aboutus*/
+  .section-aboutus .items {
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    text-align: left;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transform: translateY(0px);
+    transition: .3s;
+ }
+  .section-aboutus .items .hi{
+    width:10vw;
+    top:-40px;
+    right:-5px;
+  }
+ .section-aboutus .visual,
+ .section-aboutus .txt{
+   text-align: center;
+ }
+ .section-aboutus .visual img{
+   width:25vw;
+ }
+  /*footer*/
+  footer .items{
+    padding-right:1vw;
+  }
+  footer .items .license li{
+    width:45px;
+  }
+  footer .items .license img{
+    width:100%;
+  }
+    /*Fancy BOX*/
+    .loginblock,
+    .userblock{
+      width:80%; 
+    }
+
+    .userblock .item-group{
+      flex-direction: row;
+      text-align: center;
+      font-size:110%;
+    }
+    .userblock .items h4{
+      padding-bottom:10px;
+    }
+
+    .userblock .title{
+      padding-top:10px;
+      text-align: left;
+    }
+    .userblock .items .user img{
+      height:150px;
+      width:150px;
+    }
+    .userblock .title{
+      font-size:100%;
+    }
+
+    .userblock .items .played li{
+      padding:6px;
+    }
+}
+
+
+/**************************************/
+/* Small tablet to big tablet: from 768px to 1023px ===================*/
+/**************************************/
+@media only screen and (max-width: 1023px) {
+/*navigation toggle*/
+  .okayNav__menu-toggle{
+    right:15px;
+  }
+  /*slider*/
+  .slick-slide {
+    position: relative;
+    height: 52vw;
+  }
+  .slick-slide .slide-image{
+    margin-top: 60px;
+  }
+  .main-slider{
+    height: 50vw;
+    margin-bottom:60px;
+  }
+  /*content start*/
+  .wrap h2 {
+    font-size: 6vw;
+  }
+  .item-group{
+    flex-direction: column;
+  }
+  .item-group:last-child{
+    padding-top:0px;
+  }
+  /*product*/
+  .section-product .item-group {
+    margin-top: 20px;
+  }
+  .section-product .item-group {
+    padding-top: 5px;
+  }
+  .section-product .item-group:last-child {
+    margin-top: -5px;
+  }
+  .section-product .set{
+    width:90vw;
+    padding-bottom:20px;
+  }
+  .section-product .set .theme img{
+    width:100%;
+    height:100%;
+  }
+  .section-product .set .main-object{
+    top:20px;
+    height: auto;
+  }
+  .section-product .set .main-object img{
+    width:100%;
+    height:100%;
+  }
+  .section-product .items .sub-object {
+    display: block;
+    top:20px;
+  }
+  .section-product .items .sub-object img{
+    vertical-align: middle;
+    width:100%;
+  }
+    /*hotgames*/
+    .section-hotgames{ 
+      background: rgb(20, 20, 20);
+     }
+    .section-hotgames .title{
+      width: 100%;
+      margin:auto;
+      top:0;
+      left:0;
+      background-color:transparent;
+      position: relative;
+      padding:20px 0;
+      border-top:1px solid rgb(92, 92, 92);
+    }
+    .section-hotgames .subintro{
+      width:90%;
+      padding-bottom:10px;
+    }
+    .section-hotgames .item-group{
+      flex-direction: row;
+      flex-wrap: wrap;
+    }  
+    .section-hotgames .item-group:last-child{
+      margin-bottom:30px;
+    }  
+    .section-hotgames .items{
+      width:50%;
+      padding:5px;
+    }
+    .section-hotgames .items img {
+      opacity: 1;
+      width: 100%;
+    }
+    .section-hotgames .items:hover .txt{
+      opacity: 1;
+    }
+    .section-hotgames .items .txt p{
+      display:none;
+    }
+    .section-hotgames .items .agent img{
+      width:80%;
+    }
+    /*mobile APP*/
+    .section-mobile .items{
+      display:block;
+    }
+    .section-mobile .items .visual{
+      width:90%;
+    }
+    .section-mobile .items .visual img{
+      width:75%;
+      vertical-align: bottom;
+    }
+    .section-mobile .txt {
+      margin-top:30px;
+      width:100%;
+    }
+    .section-mobile .downloadapp{
+      opacity: 1;
+      bottom:50px;
+      right:40px;
+    }
+    .section-mobile .btn-qrcode{
+      display:none;
+    }
+
+  /*aboutus*/
+  .section-aboutus .items .hi{
+    width:10vw;
+    right:180px;
+  }
+
+  /*footer*/
+  footer .items{
+    width:85vw;
+    padding:0;
+  }
+  footer .items h4{
+    color:#eee;
+    font-size:20px;
+    padding-top:20px;
+  }
+  /*Fancy BOX*/
+  .loginblock,
+  .userblock{
+    width:90%; 
+  }
+  .userblock .item-group{
+    flex-direction: row;
+    text-align: center;
+    font-size:110%;
+  }
+  .userblock .items h4{
+    padding-bottom:10px;
+  }
+  .userblock .title{
+    padding-top:10px;
+    text-align: left;
+  }
+  .userblock .items .user img{
+    height:150px;
+    width:150px;
+  }
+  .userblock .title{
+    font-size:100%;
+  }
+  .userblock .items .played li{
+    padding:6px;
+  }
+}
+
+/**************************************/
+/* Small phones to small tablets: from 481px to 767px=================== */
+/**************************************/
+@media only screen and (max-width: 767px) {
+/*slider*/
+  .slick-slide {
+    position: relative;
+    height: 60vw;
+  }
+  .slick-slide .slide-image{
+    margin-top: 60px;
+  }
+  .main-slider{
+    height: 55vw;
+    margin-bottom:60px;
+  }
+
+  .item-group{
+    flex-direction: column;
+  }
+  /*product*/
+  .section-product .items .sub-object {
+    display: none;
+  }
+  /*hotgames*/
+    .section-hotgames{ 
+      background: rgb(20, 20, 20);
+    }
+      .section-hotgames .title{
+        width: 100%;
+        margin:auto;
+        top:0;
+        left:0;
+        background-color:transparent;
+        position: relative;
+        padding:20px 0;
+        border-top:1px solid rgb(92, 92, 92);
+      }
+      .section-hotgames .subintro{
+        width:90%;
+        padding-bottom:10px;
+      }
+      .section-hotgames .item-group{
+        flex-direction: column;
+      }  
+      .section-hotgames .items img {
+        opacity: 1;
+        width: 100%;
+      }
+      .section-hotgames .items:hover .txt{
+        opacity: 1;
+      }
+      .section-hotgames .items .txt p{
+        display:block;
+        width:100%;
+      }
+      .section-hotgames .items .agent img{
+        width:80%;
+      }
+   /*mobile APP*/
+      .section-mobile .items{
+        display:block;
+      }
+      .section-mobile .items .visual{
+        width:90%;
+      }
+      .section-mobile .items .visual img{
+        width:100%;
+        vertical-align: bottom;
+      }
+      .section-mobile .txt {
+        margin-top:30px;
+        width:100%;
+      }
+      .section-mobile .downloadapp{
+        opacity: 1;
+        bottom:30px;
+        right:-0;
+      }
+      .section-mobile .btn-qrcode{
+        display:none;
+      }
+}
+
+
+/**************************************/
+/* Small phones: from 376 to 480px (iphone8plus=414px)===================*/
+/**************************************/
+@media only screen and (max-width: 480px) {
+
+  .logo img{
+    width:80%;
+  }
+  .okayNav__menu-toggle{
+    top:15px;
+  }
+  /*slider*/
+  .slick-slide {
+    position: relative;
+    height: 60vw;
+  }
+  .slick-slide .slide-image{
+    margin-top: 60px;
+  }
+  .main-slider{
+    height: 55vw;
+    margin-bottom:60px;
+  }
+  .slick-dots li{
+    margin-top:0px;
+  }
+  .slick-dots li button {
+    width: 15px;
+    height: 15px;
+  }
+  .slide-media{
+    margin-top:40px;
+  }
+  /*content*/
+  .wrap .fluid{
+    width:90vw;
+  }
+  .item-group{
+    flex-direction: column;
+  }
+ /*product*/
+  .section-product .items {
+    height: 300px;
+  }
+    .section-product{
+      padding-bottom:40px;
+    }
+    .section-product .item-group{
+      padding-top:30px;
+    }
+    .section-product .item-group:last-child{
+      padding-top:0px;
+    }
+  
+      /*advantage*/
+      .section-advantage{
+        padding-bottom:40px;
+      }
+      .section-advantage .item-group{
+        padding-top:30px;
+      }
+      .section-advantage .item-group:last-child{
+        padding-top:0px;
+      }
+  
+    /*hotgames*/
+    .section-hotgames{ 
+      background: rgb(20, 20, 20);
+     }
+  
+    .section-hotgames .title{
+      width: 100%;
+      margin:auto;
+      top:0;
+      left:0;
+      background-color:transparent;
+      position: relative;
+      padding-top:20px;
+      border-top:1px solid rgb(92, 92, 92);
+    }
+  
+    .section-hotgames .subintro{
+      width:90%;
+      padding-bottom:10px;
+    }
+    .section-hotgames .items{
+      padding-bottom:10px;
+      width: 100%;
+    }
+      /*mobile APP*/
+
+    .section-mobile .items{
+      display:block;
+    }
+    .section-mobile .items .visual{
+      width:90%;
+    }
+    .section-mobile .items .visual img{
+      width:100%;
+      vertical-align: bottom;
+    }
+    .section-mobile .txt {
+      margin-top:30px;
+      width:100%;
+    }
+    .section-mobile .downloadapp{
+      opacity: 1;
+      bottom:30px;
+      right:0;
+    }
+    .section-mobile .btn-qrcode{
+      display:none;
+    }
+   /*aboutus*/
+  .section-aboutus .items {
+    flex-direction: column;
+    text-align: center;
+  }
+  .section-aboutus .items .txt {
+    padding-left: 0px;
+  }
+  .section-aboutus .items img {
+    width: 50vw;
+    height:auto;
+  }
+  .section-aboutus .items:hover{
+    transform: translateY(-10px);
+    box-shadow: none;
+  }
+  .section-aboutus .items .hi{
+    position: absolute;
+    width:20vw;
+    top:-20px;
+    right:0;
+    opacity: 0;
+    transition: .3s;
+  }
+  .section-aboutus .items:hover .hi{
+   display: block;
+   opacity: 1;
+   }
+    /*contact us*/
+    .contact-form {
+      width: 90%;
+    }
+
+  select {
+      width: 100%;
+      font-size: x-large;
+      text-align: left;
+      color: #8b8b8b;
+      margin: 1vh;
+      padding-left: 2vh;
+  }
+  .select-wrapper:after {
+    content: '▼';
+    color: #757575;
+    top: 5px;
+}
+     /*footer*/
+ 
+     footer .logo{
+      opacity: 1;
+    }
+    footer .logo img{
+      width:60%;
+    }
+    footer .item-group{
+      flex-direction: column;
+    }
+    footer .items{
+      width:85vw;
+      display:inline-block;
+    }
+    footer .items img{
+     display:inline-block;
+     flex-direction: row;
+     padding:0;
+   }
+ 
+   footer .items .license img
+   {width:70%;}
+ 
+   footer .items .license li
+    {padding:5px 0;
+    width:55px;}
+  
+   footer .items .partners img
+    {width:90%;}
+   footer .items .partners li
+   {padding:5px 5px;}
+  
+   footer .items .payments img{
+     width:90%;
+   }
+   footer .items .payments li
+    {padding:5px 5px;}
+ 
+   footer .items h4{
+     color:#eee;
+     font-size:20px;
+     padding-top:20px;
+   }
+    /*Fancy BOX*/
+    .loginblock,
+    .userblock{
+      width:90%; 
+    }
+    .userblock .item-group{
+      text-align: center;
+    }
+    .userblock .items h4{
+      padding-bottom:10px;
+    }
+    .userblock .title{
+      padding-top:10px;
+    }
+    .userblock .items .user{
+      width:95px;
+    }
+    .userblock .items .user img{
+      height:90px;
+      width:90px;
+      padding-right:0;
+    }
+    .userblock .items{
+      padding-right:10px;
+      width:400px;
+    }
+    .userblock .title{
+      font-size:100%;
+    }
+    .userblock .info{
+      width:700px;
+    }
+    .userblock .items .played li{
+      padding:6px;
+    }
+    .userblock .items .played{
+      flex-wrap:wrap;
+      margin: auto;
+      width: 380px;
+    }
+
+}
+/**************************************/
+/* iphoneX: 375px=================== */
+/**************************************/
+@media only screen and (max-width: 375px) {
+  
+  .okayNav__menu-toggle{
+    top:0;
+    right:0;
+  }
+ /*slider*/
+  .slide-media{
+    margin-top:45px;
+  }
+ .slick-dots li{
+   margin-top:0px;
+ }
+
+  /*product*/
+  .section-product{
+    padding-bottom:40px;
+  }
+  .section-product .item-group{
+    padding-top:30px;
+  }
+  .section-product .item-group:last-child{
+    padding-top:0px;
+  }
+
+  /*advantage*/
+    .section-advantage{
+      padding-bottom:40px;
+    }
+    .section-advantage .item-group{
+      padding-top:30px;
+    }
+    .section-advantage .item-group:last-child{
+      padding-top:0px;
+    }
+    .section-advantage .items{
+      flex-direction: column;
+    }
+    .section-advantage .icon{
+      display:block;
+      margin:auto;
+    }
+    .section-advantage .items .txt{
+      text-align: center;
+      padding-left:0;
+    }
+
+  /*hotgames*/
+  .section-hotgames{ 
+    background: rgb(20, 20, 20);
+   }
+  .section-hotgames .title{
+    width: 100%;
+    margin:auto;
+    top:0;
+    left:0;
+    background-color:transparent;
+    position: relative;
+    padding-top:20px;
+    border-top:1px solid rgb(92, 92, 92);
+  }
+  .section-hotgames .subintro{
+    width:90%;
+    padding-bottom:10px;
+  }
+  .section-hotgames .items{
+    padding-bottom:10px;
+  }
+
+  /*mobile APP*/
+  .section-mobile .items{
+    display:block;
+  }
+  .section-mobile .items .visual{
+    width:90%;
+  }
+  .section-mobile .items .visual img{
+    width:100%;
+    vertical-align: bottom;
+  }
+  .section-mobile .txt {
+    margin-top:30px;
+    width:100%;
+  }
+  .section-mobile .downloadapp{
+    opacity: 1;
+    bottom:30px;
+    right:0;
+  }
+  .section-mobile .btn-qrcode{
+    display:none;
+  }
+
+  /*aboutus*/
+  .section-aboutus .items img {
+    width: 50vw;
+    height:auto;
+  }
+  .section-aboutus .items:hover{
+    transform: translateY(-10px);
+    box-shadow: none;
+  }
+  .section-aboutus .items .hi{
+    position: absolute;
+    width:20vw;
+    top:-20px;
+    right:0;
+    opacity: 0;
+    transition: .3s;
+  }
+  .section-aboutus .items:hover .hi{
+   display: block;
+   opacity: 1;
+   }
+   /*contactus*/
+   .select-wrapper:after {
+    top: 3px;
+  }
+   /*footer*/
+ 
+   footer .logo{
+     width:20%;
+     opacity: 1;
+   }
+   footer .item-group{
+     flex-direction: column;
+   }
+   footer .items{
+     width:85vw;
+     display:inline-block;
+   }
+   footer .items img{
+    display:inline-block;
+    flex-direction: row;
+    padding:0;
+  }
+  footer .items .license img
+  {width:70%;}
+
+  footer .items .license li
+   {padding:5px 0;
+  width:50px;}
+ 
+  footer .items .partners img
+   {width:90%;}
+  footer .items .partners li
+  {padding:5px 5px;}
+ 
+  footer .items .payments img{
+    width:90%;
+  }
+  footer .items .payments li
+   {padding:5px 5px;}
+
+  footer .items h4{
+    color:#eee;
+    font-size:20px;
+    padding-top:20px;
+  }
+
+  /*Fancy BOX*/
+  .loginblock,
+  .userblock{
+    width:90%; 
+  }
+  .userblock .item-group{
+    text-align: center;
+    padding:10px 0px;
+  }
+  .userblock .items h4{
+    padding-bottom:10px;
+  }
+  .userblock .title{
+    padding-top:10px;
+  }
+  .userblock .items .user img{
+    height:85px;
+    width:85px;
+    padding-right:0;
+  }
+  .userblock .items{
+    padding-right:0px;
+    width:400px;
+  }
+  .userblock .title{
+    font-size:100%;
+  }
+  .userblock .info{
+    width:700px;
+  }
+  .userblock .items .played li{
+    padding:6px;
+  }
+  .userblock .items .played{
+    flex-wrap:wrap;
+    margin: auto;
+    width: 380px;
+  }
+}
+
+
+/**************************************/
+/* Piuxel 2: 411px=================== */
+/**************************************/
+@media only screen and (width: 411px) {
+    .okayNav__menu-toggle{
+      top:15px;
+    }
+  /*about*/
+  .section-aboutus {
+    padding: 30px 0;
+  }
+  .item-group{
+      flex-direction: column;
+  }
+
+  /*product*/
+  .section-product .set {
+    padding: 0; 
+  }
+  .section-product .items {
+    height: 280px;
+  }
+  .section-product .items .main-object {
+    right:0px;
+  }
+ 
+  footer .items .license li {
+    width: 55px;
+  }
+}
+
+
+/**************************************/
+/* GalaxyS5 360px=================== */
+/**************************************/
+
+@media only screen and (width: 360px) {
+  .okayNav__menu-toggle{
+    top:0px;
+  }
+  .main-slider{
+    height: 54vw;
+  }
+       /*footer*/
+ 
+       footer .items .license img
+       {width:100%;}
+     
+       footer .items .license li
+        {padding:5px 5px;
+        width:50px;}
+      
+       footer .items .partners img
+        {width:90%;}
+      
+       footer .items .payments img{
+         width:90%;
+       }
+    
+       .userblock .items .user img{
+        height:80px;
+        width:80px;
+        padding-right:0;
+      }
+      .userblock .items{
+        padding-right:0px;
+        width:400px;
+      }
+      .userblock .title{
+        font-size:100%;
+      }
+      .userblock .info{
+        width:700px;
+      }
+}
+
+/**************************************/
+/* iPhone5/SE 320px=================== */
+/**************************************/
+
+@media only screen and (width: 320px) {
+  .okayNav__menu-toggle{
+    top:0px;
+  }
+  .main-slider{
+    height: 53vw;
+  }
+     /*footer*/
+   footer .items .license img
+   {width:100%;}
+ 
+   footer .items .license li
+    {padding:5px 5px;
+    width:45px;}
+  
+   footer .items .partners img
+    {width:90%;}
+  
+   footer .items .payments img{
+     width:90%;
+   }
+   .userblock .items .user{
+     margin-left:-10px;
+   }
+   .userblock .items .user img{
+    height:80px;
+    width:80px;
+    padding-right:0;
+  }
+  .userblock .items{
+    padding-right:0px;
+    width:400px;
+  }
+  .userblock .title{
+    font-size:100%;
+  }
+  .userblock .info{
+    margin-left:-5px;
+    width:700px;
+    font-size: 85%;
+  }
+   .userblock .items .played {
+   margin:auto;
+  }
+   .userblock .items .played li {
+    padding: 6px 2px;
+  }
+  .userblock .items .played li:first-child{
+    margin-left:5px;
+  }
+  .userblock .items .played img {
+    width:80%;
+  }
+}
