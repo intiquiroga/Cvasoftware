@@ -196,6 +196,18 @@
 .container p {
   margin-bottom: 40px;
 }
+.beneficios1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+.beneficios2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
 
 @-webkit-keyframes slideIn {
   from {
